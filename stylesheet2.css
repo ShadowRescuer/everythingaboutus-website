@@ -1,0 +1,72 @@
+body {
+    font-family: "Source Serif Pro", serif;
+    background-color: #FF5D00;
+    margin: 0;
+    padding: 0;
+}
+
+.header1 {
+    background-color: #FF5D00;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+    color:white;
+}
+
+.logo1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+    color: black;
+}
+
+.logo1:hover {
+    color:white;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.members-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.members-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.member {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.facebook-link {
+    color:black;
+    text-decoration: none;
+}
+
+.facebook-link:hover{
+    color:white;
+}

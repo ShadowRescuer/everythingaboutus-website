@@ -1,0 +1,84 @@
+body {
+    font-family: "Source Serif Pro", serif;
+    background-image: url("Photos/toaddpic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-button {
+    background-color: transparent;
+    border: none;
+    color: #FF5D00;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+    color:black;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    color:#FF5D00;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.box {
+    width: 20%;
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.box-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.box-button {
+    padding:5px 30px;
+    background-color:black;
+    color: #FF5D00;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    border-color:  #FF5D00;
+    border-style: solid;
+}
+
+.box-button:hover {
+    color:white;
+}
